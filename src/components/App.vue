@@ -7,7 +7,7 @@
 
 <script>
   import SubComponent from "./SubComponent.vue";
-  // import MediaInfo from "mediainfo.js";
+  import MediaInfo from "mediainfo.js";
 
   export default {
     components: {

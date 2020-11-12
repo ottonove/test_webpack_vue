@@ -84,18 +84,24 @@ module.exports = {
       },
     ],
   },
+/*   node: {
+    fs: 'empty',
+  }, */
   // import 文で .ts ファイルを解決するため
   resolve: {
     // Webpackで利用するときの設定
     alias: {
       vue$: "vue/dist/vue.esm.js",
     },
-    extensions: ["*", ".js", ".vue", ".json"],
+    extensions: ["*", ".js", ".vue", ".json", ".wasm"],
+    fallback: {
+      fs: false
+    }
   },
   /* plugins: [
     // Vueを読み込めるようにするため
     new VueLoaderPlugin(),
   ], */
   // ES5(IE11等)向けの指定
-  target: ["web", "es5"],
+  // target: ["web", "es5"],
 };
