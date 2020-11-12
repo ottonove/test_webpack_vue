@@ -126,7 +126,7 @@ eval("var Vue; // late bind\n\nvar version;\nvar map = Object.create(null);\n\ni
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => __WEBPACK_DEFAULT_EXPORT__\n/* harmony export */ });\n/* harmony import */ var _SubComponent_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./SubComponent.vue */ \"./src/components/SubComponent.vue\");\n/* harmony import */ var mediainfo_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! mediainfo.js */ \"./node_modules/mediainfo.js/dist/mediainfo.js\");\n/* harmony import */ var mediainfo_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(mediainfo_js__WEBPACK_IMPORTED_MODULE_1__);\n//\n//\n//\n//\n//\n//\n//\n;\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({\n  components: {\n    SubComponent: _SubComponent_vue__WEBPACK_IMPORTED_MODULE_0__.default\n  },\n  mounted: function mounted() {\n    console.log('hello');\n  }\n});\n\n//# sourceURL=webpack://test_webpack_vue/./src/components/App.vue?./node_modules/babel-loader/lib/index.js??clonedRuleSet-2%5B0%5D.rules%5B0%5D!./node_modules/vue-loader/lib/index.js??vue-loader-options");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => __WEBPACK_DEFAULT_EXPORT__\n/* harmony export */ });\n/* harmony import */ var _SubComponent_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./SubComponent.vue */ \"./src/components/SubComponent.vue\");\n/* harmony import */ var mediainfo_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! mediainfo.js */ \"./node_modules/mediainfo.js/dist/mediainfo.js\");\n/* harmony import */ var mediainfo_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(mediainfo_js__WEBPACK_IMPORTED_MODULE_1__);\n//\n//\n//\n//\n//\n//\n//\n;\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({\n  components: {\n    SubComponent: _SubComponent_vue__WEBPACK_IMPORTED_MODULE_0__.default\n  },\n  mounted: function mounted() {\n    mediainfo_js__WEBPACK_IMPORTED_MODULE_1___default()().then(function (mediainfo) {\n      console.log(mediainfo);\n    });\n    console.log('hello');\n  }\n});\n\n//# sourceURL=webpack://test_webpack_vue/./src/components/App.vue?./node_modules/babel-loader/lib/index.js??clonedRuleSet-2%5B0%5D.rules%5B0%5D!./node_modules/vue-loader/lib/index.js??vue-loader-options");
 
 /***/ }),
 
@@ -519,7 +519,7 @@ eval("/* (ignored) */\n\n//# sourceURL=webpack://test_webpack_vue/fs_(ignored)?"
 /******/ 	
 /******/ 	/* webpack/runtime/getFullHash */
 /******/ 	(() => {
-/******/ 		__webpack_require__.h = () => "605227148e46032bd80e"
+/******/ 		__webpack_require__.h = () => "d5ab3dc1975bab613181"
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/global */

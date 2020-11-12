@@ -14,6 +14,9 @@
       SubComponent
     },
     mounted(){
+      MediaInfo().then((mediainfo) => {
+        console.log(mediainfo);
+      })
       console.log('hello');
     }
   };
