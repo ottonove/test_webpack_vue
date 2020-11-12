@@ -28,18 +28,7 @@ module.exports = {
   plugins: [
     new VueLoaderPlugin(),
 
-    new HtmlWebpackPlugin({
-      filename: resolve(distPath, 'index.html'),
-      // favicon: resolve(srcPath, 'static', 'favicon.png'),
-      /* meta: {
-        description: pkginfo.description,
-        author: pkginfo.author,
-        keywords: pkginfo.keywords.join(' '),
-        viewport: 'width=device-width,initial-scale=1',
-      }, */
-      // minify: false,
-      // title: 'mediainfo.js',
-    }),
+    new HtmlWebpackPlugin(),
     new CopyPlugin({
       patterns: [
         { from: wasmFile, to: '.' },
@@ -93,7 +82,7 @@ module.exports = {
     alias: {
       vue$: "vue/dist/vue.esm.js",
     },
-    extensions: ["*", ".js", ".vue", ".json", ".wasm"],
+    extensions: ["*", ".js", ".vue", ".json"],
     fallback: {
       fs: false
     }
