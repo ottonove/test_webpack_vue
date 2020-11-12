@@ -7,9 +7,14 @@
 
 <script>
   import SubComponent from "./SubComponent.vue";
+  // import MediaInfo from "mediainfo.js";
+
   export default {
     components: {
       SubComponent
+    },
+    mounted(){
+      console.log('hello');
     }
   };
 </script>
